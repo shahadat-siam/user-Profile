@@ -8,7 +8,7 @@ import { MdMenu } from "react-icons/md";
 const Navbar = () => {
     return (
         <div className="bg-[#2F3645] max-w-[1920px] w-full mx-auto">
-             <div className="flex px-8 max-w-7xl mx-auto py-4 justify-between items-center">
+             <div className="flex px-7 md:px-12 max-w-7xl mx-auto py-4 justify-between items-center">
                 <h2 className="text-4xl text-white font-semibold flex items-center gap-3"> <img className="w-12 pt-2" src="/logo.svg" alt="" /> Logoipsum</h2>
                 <div className="md:flex hidden items-center gap-4">
                     <p className="bg-[#121213] font-bold text-xl cursor-pointer text-white p-2 rounded-full"><IoMdSearch /></p>
